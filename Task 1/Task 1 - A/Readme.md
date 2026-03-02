@@ -1,4 +1,4 @@
-# C06 IMAGIINE – Task 1 A  
+# Task 1A – Learning Phase 1 A
 
 Welcome to Task 1 A!
 
@@ -203,5 +203,6 @@ if __name__ == "__main__":
 ## This task is about learning properly.
 Do not copy-paste. Try to understand what you write.
 Ensure code runs without errors. Keep formatting clean
+Be prepared to move into Task 1 - B in Learning Phase 1
 
 
