@@ -6,9 +6,6 @@ class Student:
         self.marks = marks 
 
     def average(self):
-        """
-        Return the average of marks.
-        """
         sum = 0
         for i in self.marks:
             sum += i
@@ -16,13 +13,7 @@ class Student:
 
 
     def grade(self):
-        """
-        Return grade based on average:
-        90+  -> A
-        75-89 -> B
-        50-74 -> C
-        Below 50 -> D
-        """
+       
         if self.average() > 90:
             return "A"
         elif self.average() < 90 and self.average()>75:
@@ -34,9 +25,7 @@ class Student:
         
 
     def __str__(self):
-        """
-        Return formatted student details when printed.
-        """
+        
         return f'''Name:{self.name}
                    Average:{self.average()}
                    Grade:{self.grade()}
@@ -47,7 +36,7 @@ class Student:
 
 
 # ------------------------
-# Test your class below
+# Testing the class below
 # ------------------------
 
 if __name__ == "__main__":
